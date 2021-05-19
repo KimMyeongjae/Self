@@ -43,20 +43,133 @@ public class MainActivity extends AppCompatActivity {
         ch10 = findViewById(R.id.check10);
         ch11 = findViewById(R.id.check11);
 
+        ch1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=1;
+                }
+                else
+                    res-=1;
+            }
+        });
+        ch8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=2;
+                }
+                else
+                    res-=2;
+            }
+        });
+        ch9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=2;
+                }
+                else
+                    res-=2;
+            }
+        });
+        ch10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=3;
+                }
+                else
+                    res-=3;
+            }
+        });
+        ch11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((CheckBox)v).isChecked()){
+                    res+=3;
+                }
+                else
+                    res-=3;
+            }
+        });
+
+
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ch1.isChecked()==true) res+=1;
-                if(ch2.isChecked()==true) res+=1;
-                if(ch3.isChecked()==true) res+=1;
-                if(ch4.isChecked()==true) res+=1;
-                if(ch5.isChecked()==true) res+=1;
-                if(ch6.isChecked()==true) res+=1;
-                if(ch7.isChecked()==true) res+=1;
-                if(ch8.isChecked()==true) res+=2;
-                if(ch9.isChecked()==true) res+=2;
-                if(ch10.isChecked()==true) res+=3;
-                if(ch11.isChecked()==true) res+=3;
+//                if(ch2.isChecked()==true) res+=1;
+//                if(ch3.isChecked()==true) res+=1;
+//                if(ch4.isChecked()==true) res+=1;
+//                if(ch5.isChecked()==true) res+=1;
+//                if(ch6.isChecked()==true) res+=1;
+//                if(ch7.isChecked()==true) res+=1;
+//                if(ch8.isChecked()==true) res+=2;
+//                if(ch9.isChecked()==true) res+=2;
+//                if(ch10.isChecked()==true) res+=3;
+//                if(ch11.isChecked()==true) res+=3;
 
                 result.setText("나의 점수 : " + Integer.toString(res));
             }
